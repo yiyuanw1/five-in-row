@@ -1,0 +1,48 @@
+
+.main .grid{
+  width: 1rem;
+  height: 1rem;
+  margin: 1px;
+}
+
+.background .grid{
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid black;
+}
+
+.board{
+  width: fit-content;  
+  margin: 3rem auto;
+  display: grid;
+}
+
+.main{
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.main .grid:hover{
+  cursor: pointer;
+  
+}
+
+.background{
+  margin: calc(.5rem + 1px);
+  z-index: 0;
+}
+
+.chess{
+  border: 1px solid black;
+  margin: 0;
+  border-radius: 100%;
+}
+
+.white{
+  background-color: white;
+}
+
+.black{
+  background-color: black;
+}
