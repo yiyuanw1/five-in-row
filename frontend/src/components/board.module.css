@@ -2,13 +2,13 @@
 .main .grid{
   width: 1rem;
   height: 1rem;
-  margin: 1px;
+  margin: .05rem;
 }
 
 .background .grid{
   width: 1rem;
   height: 1rem;
-  border: 1px solid black;
+  border: .05rem solid black;
 }
 
 .board{
@@ -29,12 +29,12 @@
 }
 
 .background{
-  margin: calc(.5rem + 1px);
+  margin: .5625rem;
   z-index: 0;
 }
 
 .chess{
-  border: 1px solid black;
+  border: 0.05rem solid black;
   margin: 0;
   border-radius: 100%;
 }
